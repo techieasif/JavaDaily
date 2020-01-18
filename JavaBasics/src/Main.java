@@ -10,8 +10,9 @@ public class Main {
         System.out.println("Hello " + name);
         System.out.println("Please Enter an Integer to calculate its Square :\n");
         int number = takeInput.nextInt();
+        System.out.println("\n-------------------------------------------------------------\n");
         System.out.println("Number entered by " +name+" is "+number);
-        System.out.println("\n Square of "+number +" is " + (number*number));
+        System.out.println("\nSquare of "+number +" is " + (number*number));
         System.out.println("Choose an option to calculate more operation on "+number+" 1. cube\t 2. 60% of it");
         int choice = takeInput.nextInt();
 
