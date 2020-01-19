@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d6d26be-6e4c-403b-829d-7f82f138147a" name="Default Changelist" comment="enhanced2">
-      <change afterPath="$PROJECT_DIR$/src/ControlFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Methods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Str.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Str.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +54,16 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.ControlFlow">
+  <component name="RunManager" selected="Application.Methods">
     <configuration name="ControlFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ControlFlow" />
+      <module name="JavaBasics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Methods" />
       <module name="JavaBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,20 +90,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unic" />
-      <module name="JavaBasics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Methods" />
         <item itemvalue="Application.ControlFlow" />
         <item itemvalue="Application.Operators" />
         <item itemvalue="Application.Str" />
         <item itemvalue="Application.Primitives" />
-        <item itemvalue="Application.Unic" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +125,8 @@
       <workItem from="1579194798940" duration="3075000" />
       <workItem from="1579352614512" duration="407000" />
       <workItem from="1579364826699" duration="5876000" />
-      <workItem from="1579408868344" duration="8100000" />
+      <workItem from="1579408868344" duration="8168000" />
+      <workItem from="1579452094324" duration="1373000" />
     </task>
     <task id="LOCAL-00001" summary="enhanced">
       <created>1579352830431</created>
@@ -176,22 +175,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579373094350" />
-    <state width="1398" height="384" key="GridCell.Tab.0.bottom" timestamp="1579429002121">
+    <state width="1398" height="384" key="GridCell.Tab.0.bottom" timestamp="1579456093098">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="384" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579429002121" />
-    <state width="1398" height="384" key="GridCell.Tab.0.center" timestamp="1579429002120">
+    <state width="1398" height="384" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579456093098" />
+    <state width="1398" height="384" key="GridCell.Tab.0.center" timestamp="1579456093097">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="384" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579429002120" />
-    <state width="1398" height="384" key="GridCell.Tab.0.left" timestamp="1579429002119">
+    <state width="1398" height="384" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579456093097" />
+    <state width="1398" height="384" key="GridCell.Tab.0.left" timestamp="1579456093097">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="384" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579429002119" />
-    <state width="1398" height="384" key="GridCell.Tab.0.right" timestamp="1579429002120">
+    <state width="1398" height="384" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579456093097" />
+    <state width="1398" height="384" key="GridCell.Tab.0.right" timestamp="1579456093098">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="384" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579429002120" />
+    <state width="1398" height="384" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579456093098" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1579371370468">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -200,11 +199,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579352922077" />
-    <state x="397" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1579408877699">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="397" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1579452535017">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
     <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1579408877699" />
-    <state x="397" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.807@0.23.1440.807" timestamp="1579194812479" />
+    <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.807@0.23.1440.807" timestamp="1579452535017" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1579195279457">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
