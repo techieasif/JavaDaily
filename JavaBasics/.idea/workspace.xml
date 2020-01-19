@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d6d26be-6e4c-403b-829d-7f82f138147a" name="Default Changelist" comment="enhanced2">
-      <change afterPath="$PROJECT_DIR$/src/Unic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Str.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Primitives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives.java" afterDir="false" />
     </list>
@@ -55,7 +55,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.Primitives">
+  <component name="RunManager" selected="Application.Str">
     <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basics" />
       <module name="JavaBasics" />
@@ -77,6 +77,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Str" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Str" />
+      <module name="JavaBasics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unic" />
       <module name="JavaBasics" />
@@ -86,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Str" />
         <item itemvalue="Application.Primitives" />
         <item itemvalue="Application.Unic" />
         <item itemvalue="Application.Casting" />
@@ -118,7 +126,7 @@
       <workItem from="1579194798940" duration="3075000" />
       <workItem from="1579352614512" duration="407000" />
       <workItem from="1579364826699" duration="5876000" />
-      <workItem from="1579408868344" duration="3779000" />
+      <workItem from="1579408868344" duration="5784000" />
     </task>
     <task id="LOCAL-00001" summary="enhanced">
       <created>1579352830431</created>
@@ -155,6 +163,10 @@
       <screen x="0" y="23" width="1440" height="807" />
     </state>
     <state x="320" y="92" width="811" height="669" key="#Project_Structure/0.23.1440.807@0.23.1440.807" timestamp="1579194824210" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579424319271">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1579424319271" />
     <state x="457" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579367055182">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -163,22 +175,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579373094350" />
-    <state width="1398" height="384" key="GridCell.Tab.0.bottom" timestamp="1579417700182">
+    <state width="1398" height="384" key="GridCell.Tab.0.bottom" timestamp="1579426147481">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="384" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579417700182" />
-    <state width="1398" height="384" key="GridCell.Tab.0.center" timestamp="1579417700180">
+    <state width="1398" height="384" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579426147481" />
+    <state width="1398" height="384" key="GridCell.Tab.0.center" timestamp="1579426147480">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="384" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579417700180" />
-    <state width="1398" height="384" key="GridCell.Tab.0.left" timestamp="1579417700179">
+    <state width="1398" height="384" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579426147480" />
+    <state width="1398" height="384" key="GridCell.Tab.0.left" timestamp="1579426147479">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="384" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579417700179" />
-    <state width="1398" height="384" key="GridCell.Tab.0.right" timestamp="1579417700181">
+    <state width="1398" height="384" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579426147479" />
+    <state width="1398" height="384" key="GridCell.Tab.0.right" timestamp="1579426147480">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="384" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579417700181" />
+    <state width="1398" height="384" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579426147480" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1579371370468">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

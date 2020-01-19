@@ -145,8 +145,7 @@ int myIntMaxValue = Integer.MAX_VALUE;
 
         boolean isTrueBool = true;
         boolean isFalseBool = false;
-        System.out.println("isTrueBool : "+ isTrueBool);
-        System.out.println("isFalseBool : "+ isFalseBool);
+
 
     }
 }
