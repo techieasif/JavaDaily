@@ -31,7 +31,7 @@ public class Str {
 
 
 //concatenation OR Appending->
-        String str1 = "This is string one";
+        String str1 = "This is strring one";
         String str2 = " this is String two";
 
         System.out.println("Result of Concatenation : =>\t" + str1+str2);
