@@ -68,5 +68,85 @@ int myIntMaxValue = Integer.MAX_VALUE;
             long myLong = 50000L;
 
             System.out.println("Result : "+((myByte*10)+(myShort*10)+(myInt*10)+(myLong)));
+            
+//-> Floating Point Primitives : =>  Float and Double
+        System.out.println("----- F L O A T ------");
+        float myFloatMinValue = Float.MIN_VALUE; //-32768
+        float myFloatMaxValue = Float.MAX_VALUE; // 32767
+        System.out.println("Float Min Value : "+ (myFloatMinValue));//-9223372036854775808
+        System.out.println("Float Max Value : "+ (myFloatMaxValue));
+
+        /*Note:->
+            float myNumber = 6.87; -> will give you error, as java uses double by default for
+            floating point literals, to define float you need to either add `L` or explicitly cast
+            it to float.
+            lets see an example: float errorFloat = 6.87; //error : required float, found double.
+         */
+        //ways to solve this error;
+        float errorFloat = 6.87F;//way1
+        float errorFloat2 = (float) 6.87;
+        System.out.println("errorFloat way1: "+ errorFloat);
+        System.out.println("errorFloat way2: "+ errorFloat2);
+
+//-> double Floating Point Primitive:
+        /* double is used as default data type for any decimal point literal
+            -> It is faster than float.
+            -> It is more accurate than float.
+         */
+        System.out.println("------ D O U B L E -------");
+        double myDoubleNumber = 5;//5.0
+        double myDoubleNumberWithAlphabet = 5d; //5.0
+        double myDoublePrecisionNumber = 5.00;//5.0
+
+        System.out.println("myDoubleNumber:" +myDoubleNumber);
+        System.out.println("myDoubleNumberWithAlphabet "+myDoubleNumberWithAlphabet);
+        System.out.println("myDoublePrecisionNumber " + myDoublePrecisionNumber);
+
+        //checking accuracy as compared to float.
+        float floatDivision = 5/3; //1.0 inaccurate
+        float floatDivisionRight = 5f/3f;//1.6666666 float accurate but not exactly accurate
+        System.out.println("floatDivision :"+floatDivision);
+        System.out.println("floatDivisionRight: "+floatDivisionRight);
+
+        double doubleDivision = 5/3;//1.0 inaccurate, warning :- integer Division in floating context.
+        System.out.println("doubleDivision: " + doubleDivision);
+
+        double doubleAccurateDivision = 5d/3d;//1.6666666666666667 accurate
+        System.out.println("doubleAccurateDivision: " + doubleAccurateDivision);
+
+        double anotherWayOfWriting = 576634_8.7684223_8464d;//5766348.768422385 correct
+        System.out.println("anotherWayOfWriting : " +anotherWayOfWriting);
+
+//Quick use of floating precision lets create small program":
+        /*program to convert pound to Kilograms;
+        1 pound => 0.45359237 kilogram
+         */
+        double pound1EquivalentToKg = 0.45359237d;
+        double myPounds = 87d;
+        double resultKg = myPounds*pound1EquivalentToKg; //39.46253619
+        System.out.println("Given Pound " + myPounds +" is equivalent in KG's  : " + resultKg);
+
+
+
+
+//-> char primitive
+        /*
+        it can hold only one character or unicode characters.
+        Size of Byte is 16 bit -> width 16 and 2byte.
+
+         */
+        char myChar = 'D';//D
+        System.out.println("myCar : "+myChar);
+
+//-> Boolean primitive
+        /*
+        It can hold only either true or false.
+         */
+
+        boolean isTrueBool = true;
+        boolean isFalseBool = false;
+        System.out.println("isTrueBool : "+ isTrueBool);
+        System.out.println("isFalseBool : "+ isFalseBool);
+
     }
 }
