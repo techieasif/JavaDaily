@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d6d26be-6e4c-403b-829d-7f82f138147a" name="Default Changelist" comment="enhanced2">
-      <change afterPath="$PROJECT_DIR$/src/TestingFuckingFeatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BarkingDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecimalComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EqualSumChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MegaBytesConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SpeedConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TeenNumberChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,38 +61,39 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.TestingFuckingFeatures">
-    <configuration name="ControlFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ControlFlow" />
+  <component name="RunManager" selected="Application.TeenNumberChecker">
+    <configuration name="BarkingDog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BarkingDog" />
       <module name="JavaBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Methods" />
+    <configuration name="DecimalComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DecimalComparator" />
       <module name="JavaBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operators" />
+    <configuration name="EqualSumChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EqualSumChecker" />
       <module name="JavaBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Primitives" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Primitives" />
+    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeapYear" />
       <module name="JavaBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingFuckingFeatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestingFuckingFeatures" />
+    <configuration name="TeenNumberChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TeenNumberChecker" />
       <module name="JavaBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestingFuckingFeatures" />
-        <item itemvalue="Application.Primitives" />
-        <item itemvalue="Application.Methods" />
-        <item itemvalue="Application.ControlFlow" />
-        <item itemvalue="Application.Operators" />
+        <item itemvalue="Application.TeenNumberChecker" />
+        <item itemvalue="Application.EqualSumChecker" />
+        <item itemvalue="Application.DecimalComparator" />
+        <item itemvalue="Application.LeapYear" />
+        <item itemvalue="Application.BarkingDog" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +136,9 @@
       <workItem from="1579364826699" duration="5876000" />
       <workItem from="1579408868344" duration="8168000" />
       <workItem from="1579452094324" duration="1411000" />
-      <workItem from="1580385753038" duration="679000" />
+      <workItem from="1580385753038" duration="880000" />
+      <workItem from="1580439777872" duration="6000" />
+      <workItem from="1581001608543" duration="8015000" />
     </task>
     <task id="LOCAL-00001" summary="enhanced">
       <created>1579352830431</created>
@@ -176,22 +187,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579373094350" />
-    <state width="1398" height="384" key="GridCell.Tab.0.bottom" timestamp="1580386494350">
+    <state width="1398" height="233" key="GridCell.Tab.0.bottom" timestamp="1581012981068">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="384" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580386494350" />
-    <state width="1398" height="384" key="GridCell.Tab.0.center" timestamp="1580386494349">
+    <state width="1398" height="233" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581012981068" />
+    <state width="1398" height="233" key="GridCell.Tab.0.center" timestamp="1581012981066">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="384" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580386494349" />
-    <state width="1398" height="384" key="GridCell.Tab.0.left" timestamp="1580386494348">
+    <state width="1398" height="233" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581012981066" />
+    <state width="1398" height="233" key="GridCell.Tab.0.left" timestamp="1581012981065">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="384" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580386494348" />
-    <state width="1398" height="384" key="GridCell.Tab.0.right" timestamp="1580386494349">
+    <state width="1398" height="233" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581012981065" />
+    <state width="1398" height="233" key="GridCell.Tab.0.right" timestamp="1581012981067">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="384" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580386494349" />
+    <state width="1398" height="233" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581012981067" />
+    <state width="1398" height="16" key="GridCell.Tab.1.bottom" timestamp="1581009961587">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="16" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581009961587" />
+    <state width="1398" height="16" key="GridCell.Tab.1.center" timestamp="1581009961586">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="16" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1581009961586" />
+    <state width="1398" height="16" key="GridCell.Tab.1.left" timestamp="1581009961586">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="16" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1581009961586" />
+    <state width="1398" height="16" key="GridCell.Tab.1.right" timestamp="1581009961587">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="16" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1581009961587" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1579371370468">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -200,10 +227,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579352922077" />
-    <state x="397" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1580385754514">
+    <state x="397" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1581001608562">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1580385754514" />
+    <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581001608562" />
     <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.807@0.23.1440.807" timestamp="1579452535017" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1579195279457">
       <screen x="0" y="0" width="1440" height="900" />
