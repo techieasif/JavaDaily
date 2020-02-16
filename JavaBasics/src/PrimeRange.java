@@ -1,3 +1,5 @@
+import java.lang.management.MemoryType;
+
 /**
  * Created by @techieasif on February, 2020
  */
@@ -5,7 +7,7 @@ public class PrimeRange {
     public static void main(String[] args) {
         int count = 0;
         System.out.println("PRIME NUMBERS");
-        for(int i = 0; i<=100; i++){
+        for(int i = 0; i<= 100; i++){
             if(isPrime(i)){
                 count++;
                 System.out.println(i + " is a prime number");
@@ -18,7 +20,7 @@ public class PrimeRange {
         if(num == 1){
             return false;
         }
-        for(int i = 2; i <= num/2; i++){
+        for(int i = 2; i <= Math.sqrt(num); i++){
             if(num%i == 0){
                 return false;
             }
