@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d6d26be-6e4c-403b-829d-7f82f138147a" name="Default Changelist" comment="enhanced2">
-      <change afterPath="$PROJECT_DIR$/src/BarkingDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecimalComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EqualSumChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeapYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MegaBytesConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SpeedConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeenNumberChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrimeRange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BarkingDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BarkingDog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,23 +49,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.TeenNumberChecker">
+  <component name="RunManager" selected="Application.PrimeRange">
     <configuration name="BarkingDog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BarkingDog" />
-      <module name="JavaBasics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DecimalComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DecimalComparator" />
       <module name="JavaBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,8 +72,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeapYear" />
+    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeadFirst.Exercise" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HeadFirst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeRange" />
       <module name="JavaBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeRange" />
+        <item itemvalue="Application.BarkingDog" />
+        <item itemvalue="Application.Exercise" />
         <item itemvalue="Application.TeenNumberChecker" />
         <item itemvalue="Application.EqualSumChecker" />
-        <item itemvalue="Application.DecimalComparator" />
-        <item itemvalue="Application.LeapYear" />
-        <item itemvalue="Application.BarkingDog" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +138,9 @@
       <workItem from="1579452094324" duration="1411000" />
       <workItem from="1580385753038" duration="880000" />
       <workItem from="1580439777872" duration="6000" />
-      <workItem from="1581001608543" duration="8015000" />
+      <workItem from="1581001608543" duration="8176000" />
+      <workItem from="1581843289040" duration="2609000" />
+      <workItem from="1581848353406" duration="1088000" />
     </task>
     <task id="LOCAL-00001" summary="enhanced">
       <created>1579352830431</created>
@@ -187,51 +189,55 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579373094350" />
-    <state width="1398" height="233" key="GridCell.Tab.0.bottom" timestamp="1581012981068">
+    <state width="1398" height="224" key="GridCell.Tab.0.bottom" timestamp="1581849354823">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="233" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581012981068" />
-    <state width="1398" height="233" key="GridCell.Tab.0.center" timestamp="1581012981066">
+    <state width="1398" height="224" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581849354823" />
+    <state width="1398" height="224" key="GridCell.Tab.0.center" timestamp="1581849354822">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="233" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581012981066" />
-    <state width="1398" height="233" key="GridCell.Tab.0.left" timestamp="1581012981065">
+    <state width="1398" height="224" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581849354822" />
+    <state width="1398" height="224" key="GridCell.Tab.0.left" timestamp="1581849354821">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="233" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581012981065" />
-    <state width="1398" height="233" key="GridCell.Tab.0.right" timestamp="1581012981067">
+    <state width="1398" height="224" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581849354821" />
+    <state width="1398" height="224" key="GridCell.Tab.0.right" timestamp="1581849354822">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="233" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581012981067" />
-    <state width="1398" height="16" key="GridCell.Tab.1.bottom" timestamp="1581009961587">
+    <state width="1398" height="224" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581849354822" />
+    <state width="1398" height="16" key="GridCell.Tab.1.bottom" timestamp="1581014604227">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="16" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581009961587" />
-    <state width="1398" height="16" key="GridCell.Tab.1.center" timestamp="1581009961586">
+    <state width="1398" height="16" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581014604227" />
+    <state width="1398" height="16" key="GridCell.Tab.1.center" timestamp="1581014604227">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="16" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1581009961586" />
-    <state width="1398" height="16" key="GridCell.Tab.1.left" timestamp="1581009961586">
+    <state width="1398" height="16" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1581014604227" />
+    <state width="1398" height="16" key="GridCell.Tab.1.left" timestamp="1581014604226">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="16" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1581009961586" />
-    <state width="1398" height="16" key="GridCell.Tab.1.right" timestamp="1581009961587">
+    <state width="1398" height="16" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1581014604226" />
+    <state width="1398" height="16" key="GridCell.Tab.1.right" timestamp="1581014604227">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="16" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1581009961587" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1579371370468">
+    <state width="1398" height="16" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1581014604227" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1581849664383">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579371370468" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581849664383" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1579352922077">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579352922077" />
-    <state x="397" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1581001608562">
+    <state x="397" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1581849459724">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581001608562" />
+    <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581849459724" />
     <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.807@0.23.1440.807" timestamp="1579452535017" />
+    <state x="499" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581844918914">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="499" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1581844918914" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1579195279457">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

@@ -5,6 +5,8 @@ public class BarkingDog {
     public static void main(String[] args) {
 boolean result = shouldWakeUp(true, -9);
         System.out.println(result);
+
+
     }
     public static Boolean shouldWakeUp(Boolean barking, int hourOfDay){
         if(hourOfDay < 0 || hourOfDay > 23 ) {
