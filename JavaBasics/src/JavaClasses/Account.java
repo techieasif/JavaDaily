@@ -9,6 +9,19 @@ public class Account {
     private double balance;
     private int customerPhoneNumber;
 
+Account(){
+    this("Asif", "abcgd", 678.0, 9788776);
+        System.out.println("Default Constructor Called");
+}
+    Account(String name, String email,  double bal, int cNumber) {
+        System.out.println("Parameterized Constructor Called");
+        System.out.println("Name : "+name);
+        this.customerName =name;
+        this.customerEmailAddress=email;
+        this.balance = bal;
+        this.customerPhoneNumber = cNumber;
+    }
+
     public void deposit(double depositAmount){
         this.balance += depositAmount;
         System.out.println("Deposited "+ depositAmount + " new Total balance :" + this.balance);
