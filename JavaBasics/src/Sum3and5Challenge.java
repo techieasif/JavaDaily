@@ -14,7 +14,7 @@ public class Sum3and5Challenge {
                 sum = sum+i;
                 System.out.println(i+"  Divisible with 3 and 5");
             }
-            if(count == 5){
+            if(count == 10){
                 System.out.println(sum+" sum ");
                 return;
             }

@@ -5,11 +5,14 @@ package JavaClasses;
  */
 public class Main {
     public static void main(String[] args) {
-        Account ajayAccount = new Account();
+        VipCustomer vip1 = new VipCustomer(); // default
+        System.out.println("Default " + vip1.getVipCustomerName() +" "+ vip1.getVipCustomerEmailAddress());
 
-//        ajayAccount.deposit(100.0);
-        ajayAccount.withdrawal(45.0);
-//
+        VipCustomer vip2 = new VipCustomer("AMit", 90000); //parameterized
+        System.out.println("2 param " + vip2.getVipCustomerName() +" "+vip2.getVipCustomerEmailAddress());
+
+        VipCustomer vip3 = new VipCustomer("Nazim", 67000, "naz@naz.com"); //parameterized
+        System.out.println("3 param " + vip3.getVipCustomerName() +" "+vip3.getVipCustomerEmailAddress());
 
     }
 

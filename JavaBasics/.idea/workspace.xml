@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d6d26be-6e4c-403b-829d-7f82f138147a" name="Default Changelist" comment="enhanced2">
+      <change afterPath="$PROJECT_DIR$/src/JavaClasses/VipCustomer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaClasses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sum3and5Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sum3and5Challenge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +59,6 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="DigitSumChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DigitSumChallenge" />
-      <module name="JavaBasics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaClasses.Main" />
       <module name="JavaBasics" />
@@ -80,6 +74,13 @@
     </configuration>
     <configuration name="MinMaxChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MinMaxChallenge" />
+      <module name="JavaBasics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sum3and5Challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sum3and5Challenge" />
       <module name="JavaBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,10 +103,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Sum3and5Challenge" />
         <item itemvalue="Application.MinMaxChallenge" />
         <item itemvalue="Application.UserInputExercise" />
         <item itemvalue="Application.UserInput" />
-        <item itemvalue="Application.DigitSumChallenge" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +145,10 @@
       <workItem from="1581849458131" duration="6962000" />
       <workItem from="1581872278521" duration="2006000" />
       <workItem from="1582125975153" duration="2532000" />
-      <workItem from="1582202895302" duration="754000" />
+      <workItem from="1582202895302" duration="1083000" />
+      <workItem from="1582270494039" duration="230000" />
+      <workItem from="1582822490318" duration="263000" />
+      <workItem from="1582822765941" duration="1488000" />
     </task>
     <task id="LOCAL-00001" summary="enhanced">
       <created>1579352830431</created>
@@ -189,10 +193,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1579367055182" />
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1582132115410">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1582824059063">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582132115410" />
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582824059063" />
     <state x="482" y="28" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582131244140">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -201,22 +205,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579373094350" />
-    <state width="1398" height="342" key="GridCell.Tab.0.bottom" timestamp="1582203750531">
+    <state width="1398" height="330" key="GridCell.Tab.0.bottom" timestamp="1582824557943">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="342" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582203750531" />
-    <state width="1398" height="342" key="GridCell.Tab.0.center" timestamp="1582203750530">
+    <state width="1398" height="330" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582824557943" />
+    <state width="1398" height="330" key="GridCell.Tab.0.center" timestamp="1582824557942">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="342" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582203750530" />
-    <state width="1398" height="342" key="GridCell.Tab.0.left" timestamp="1582203750529">
+    <state width="1398" height="330" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582824557942" />
+    <state width="1398" height="330" key="GridCell.Tab.0.left" timestamp="1582824557942">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="342" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582203750529" />
-    <state width="1398" height="342" key="GridCell.Tab.0.right" timestamp="1582203750530">
+    <state width="1398" height="330" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582824557942" />
+    <state width="1398" height="330" key="GridCell.Tab.0.right" timestamp="1582824557943">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="342" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582203750530" />
+    <state width="1398" height="330" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582824557943" />
     <state width="1398" height="16" key="GridCell.Tab.1.bottom" timestamp="1581014604227">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -233,18 +237,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="16" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1581014604227" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1582131453913">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1582822742063">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582131453913" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582822742063" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1579352922077">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579352922077" />
-    <state x="397" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1582202903862">
+    <state x="397" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1582822768650">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582202903862" />
+    <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582822768650" />
     <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.807@0.23.1440.807" timestamp="1579452535017" />
     <state x="499" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581844918914">
       <screen x="0" y="0" width="1440" height="900" />
@@ -254,9 +258,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1579195279457" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1581851660414">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582824502896">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581851660414" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582824502896" />
   </component>
 </project>
