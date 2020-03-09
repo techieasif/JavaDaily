@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d6d26be-6e4c-403b-829d-7f82f138147a" name="Default Changelist" comment="enhanced2">
-      <change afterPath="$PROJECT_DIR$/src/JavaClasses/VipCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Wolf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sum3and5Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sum3and5Challenge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.Main" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaClasses.Main" />
       <module name="JavaBasics" />
@@ -86,13 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UserInput" />
-      <module name="JavaBasics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserInputExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UserInputExercise" />
       <module name="JavaBasics" />
@@ -102,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Sum3and5Challenge" />
         <item itemvalue="Application.MinMaxChallenge" />
         <item itemvalue="Application.UserInputExercise" />
-        <item itemvalue="Application.UserInput" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +154,12 @@
       <workItem from="1582202895302" duration="1083000" />
       <workItem from="1582270494039" duration="230000" />
       <workItem from="1582822490318" duration="263000" />
-      <workItem from="1582822765941" duration="1488000" />
+      <workItem from="1582822765941" duration="1641000" />
+      <workItem from="1583340595730" duration="22000" />
+      <workItem from="1583340631962" duration="264000" />
+      <workItem from="1583342765785" duration="315000" />
+      <workItem from="1583774159717" duration="75000" />
+      <workItem from="1583774248432" duration="494000" />
     </task>
     <task id="LOCAL-00001" summary="enhanced">
       <created>1579352830431</created>
@@ -205,22 +216,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579373094350" />
-    <state width="1398" height="330" key="GridCell.Tab.0.bottom" timestamp="1582824557943">
+    <state width="1398" height="225" key="GridCell.Tab.0.bottom" timestamp="1582829588077">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="330" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582824557943" />
-    <state width="1398" height="330" key="GridCell.Tab.0.center" timestamp="1582824557942">
+    <state width="1398" height="225" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582829588077" />
+    <state width="1398" height="225" key="GridCell.Tab.0.center" timestamp="1582829588074">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="330" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582824557942" />
-    <state width="1398" height="330" key="GridCell.Tab.0.left" timestamp="1582824557942">
+    <state width="1398" height="225" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582829588074" />
+    <state width="1398" height="225" key="GridCell.Tab.0.left" timestamp="1582829587929">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="330" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582824557942" />
-    <state width="1398" height="330" key="GridCell.Tab.0.right" timestamp="1582824557943">
+    <state width="1398" height="225" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582829587929" />
+    <state width="1398" height="225" key="GridCell.Tab.0.right" timestamp="1582829588076">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="330" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582824557943" />
+    <state width="1398" height="225" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582829588076" />
     <state width="1398" height="16" key="GridCell.Tab.1.bottom" timestamp="1581014604227">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -237,19 +248,21 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="16" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1581014604227" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1582822742063">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="221" y="103" key="SettingsEditor" timestamp="1583774235146">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582822742063" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583340617664" />
+    <state x="221" y="103" key="SettingsEditor/0.23.1440.809@0.23.1440.809" timestamp="1583774235146" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1579352922077">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579352922077" />
-    <state x="397" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1582822768650">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="397" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1583774251925">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
-    <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582822768650" />
+    <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583340649065" />
     <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.807@0.23.1440.807" timestamp="1579452535017" />
+    <state x="397" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.809@0.23.1440.809" timestamp="1583774251925" />
     <state x="499" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581844918914">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
