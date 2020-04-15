@@ -1,4 +1,4 @@
-package JavaClasses;
+package Classes;
 
 /**
  * Created by @techieasif on February, 2020

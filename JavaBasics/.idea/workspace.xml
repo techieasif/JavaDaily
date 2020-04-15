@@ -2,10 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d6d26be-6e4c-403b-829d-7f82f138147a" name="Default Changelist" comment="enhanced2">
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Wolf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/Arrayes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Challenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StaticVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composition/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composition/CpuCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composition/Dimensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composition/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composition/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composition/MotherBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composition/Resolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composition/challenge/Furniture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composition/challenge/GasStove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composition/challenge/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composition/challenge/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composition/challenge/Land.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composition/challenge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composition/challenge/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composition/challenge/Utensils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constructor_chaining/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/encapsulation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/encapsulation/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polymorphism/Challenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polymorphism/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reference/House.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheritance/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheritance/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheritance/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/VipCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/VipCustomer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,16 +84,56 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.Main" />
+  <component name="RunManager" selected="Application.Challenge">
+    <configuration name="Challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="polymorphism.Challenge" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Inheritance.*" />
+          <option name="PATTERN" value="polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="polymorphism.Main" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="composition.Main" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="composition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="encapsulation.Main" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,11 +142,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaClasses.Main" />
+      <option name="MAIN_CLASS_NAME" value="composition.challenge.Main" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaClasses.*" />
+          <option name="PATTERN" value="composition.challenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,34 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMaxChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MinMaxChallenge" />
-      <module name="JavaBasics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sum3and5Challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sum3and5Challenge" />
-      <module name="JavaBasics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserInputExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UserInputExercise" />
-      <module name="JavaBasics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Challenge" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Sum3and5Challenge" />
-        <item itemvalue="Application.MinMaxChallenge" />
-        <item itemvalue="Application.UserInputExercise" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +207,14 @@
       <workItem from="1583340631962" duration="264000" />
       <workItem from="1583342765785" duration="315000" />
       <workItem from="1583774159717" duration="75000" />
-      <workItem from="1583774248432" duration="494000" />
+      <workItem from="1583774248432" duration="853000" />
+      <workItem from="1583820962379" duration="784000" />
+      <workItem from="1583950025032" duration="228000" />
+      <workItem from="1584163769354" duration="189000" />
+      <workItem from="1586780913448" duration="2078000" />
+      <workItem from="1586841351749" duration="7499000" />
+      <workItem from="1586925506554" duration="374000" />
+      <workItem from="1586929804063" duration="11006000" />
     </task>
     <task id="LOCAL-00001" summary="enhanced">
       <created>1579352830431</created>
@@ -196,42 +251,52 @@
       <screen x="0" y="23" width="1440" height="807" />
     </state>
     <state x="320" y="92" width="811" height="669" key="#Project_Structure/0.23.1440.807@0.23.1440.807" timestamp="1579194824210" />
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579424319271">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="184" y="124" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586841616491">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1579424319271" />
+    <state x="184" y="124" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.809@0.23.1440.809" timestamp="1586841616491" />
     <state x="457" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579367055182">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1579367055182" />
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1582824059063">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1586956048507">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582824059063" />
+    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.809@0.23.1440.809" timestamp="1586956048507" />
     <state x="482" y="28" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582131244140">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="482" y="28" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1582131244140" />
+    <state x="465" y="290" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586947535396">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state x="465" y="290" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.809@0.23.1440.809" timestamp="1586947535396" />
     <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1579373094350">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579373094350" />
-    <state width="1398" height="225" key="GridCell.Tab.0.bottom" timestamp="1582829588077">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom" timestamp="1586957600124">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state width="1398" height="225" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582829588077" />
-    <state width="1398" height="225" key="GridCell.Tab.0.center" timestamp="1582829588074">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1586957600124" />
+    <state width="1398" height="2" key="GridCell.Tab.0.center" timestamp="1586957600123">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state width="1398" height="225" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582829588074" />
-    <state width="1398" height="225" key="GridCell.Tab.0.left" timestamp="1582829587929">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="2" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1586957600123" />
+    <state width="1398" height="2" key="GridCell.Tab.0.left" timestamp="1586957600123">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state width="1398" height="225" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582829587929" />
-    <state width="1398" height="225" key="GridCell.Tab.0.right" timestamp="1582829588076">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="2" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1586957600123" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right" timestamp="1586957600124">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state width="1398" height="225" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582829588076" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1586957600124" />
     <state width="1398" height="16" key="GridCell.Tab.1.bottom" timestamp="1581014604227">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -248,21 +313,21 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="16" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1581014604227" />
-    <state x="221" y="103" key="SettingsEditor" timestamp="1583774235146">
+    <state x="221" y="102" key="SettingsEditor" timestamp="1586950739442">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583340617664" />
-    <state x="221" y="103" key="SettingsEditor/0.23.1440.809@0.23.1440.809" timestamp="1583774235146" />
+    <state x="221" y="102" key="SettingsEditor/0.23.1440.809@0.23.1440.809" timestamp="1586950739442" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1579352922077">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579352922077" />
-    <state x="397" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1583774251925">
+    <state x="397" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1586925513239">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583340649065" />
     <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.807@0.23.1440.807" timestamp="1579452535017" />
-    <state x="397" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.809@0.23.1440.809" timestamp="1583774251925" />
+    <state x="397" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.809@0.23.1440.809" timestamp="1586925513239" />
     <state x="499" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581844918914">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -271,9 +336,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1579195279457" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582824502896">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="385" y="199" width="670" height="608" key="search.everywhere.popup" timestamp="1586869310571">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582824502896" />
+    <state x="385" y="199" width="670" height="608" key="search.everywhere.popup/0.23.1440.809@0.23.1440.809" timestamp="1586869310571" />
   </component>
 </project>
